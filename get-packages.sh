@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Maak het uitvoerbestand aan als het niet bestaat
+# Create output file if it doesn't exist
 output_file="packages.txt"
 touch "$output_file"
 
-# Functie om de pakketten op te halen en te formatteren
+# Function to fetch and format packages
 get_packages() {
     echo "Package List $(date '+%Y-%m-%d %H:%M:%S')" > "$output_file"
     echo "----------------------------------------" >> "$output_file"
