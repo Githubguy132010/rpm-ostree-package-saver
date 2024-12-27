@@ -17,14 +17,10 @@ A simple script to export installed packages from a Fedora Silverblue/Kinoite (o
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository and make the script executable:
 ```bash
 git clone https://github.com/yourusername/rpm-ostree-package-saver.git
 cd rpm-ostree-package-saver
-```
-
-2. Make the script executable:
-```bash
 chmod +x get-packages.sh
 ```
 
